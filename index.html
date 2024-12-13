@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container-fluid cont">
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav mx-auto">
+                    <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link " href="#aboutMe">About Me</a>
+                    <a class="nav-link " href="#skills">Skills</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#contactme">Contact Me</a>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <h1 class="text-center mx-auto mt-5 text-white greetings">Hello, I'm <span class="name">Noora</span></h1>
+            <div class="Home" id="home">
+              <h1 class="role text-center mx-auto">Frontend Developer</h1>
+              </div>
+              <div id="aboutMe">
+                <div class="d-flex row mb-5 justify-content-center col-sm-12 mx-auto col-lg-8 align-items-center">
+                <img src="https://res.cloudinary.com/dp59yykic/image/upload/c_crop,w_1000,h_1000/v1732963315/noora_pic_kscsr1.jpg" alt="mypic" class="mx-auto pic col-sm-8" />
+              </div>
+              <div class="desc-card col-sm-12 col-lg-12 mx-auto">
+                <h1 class="about text-center col-sm-11">About <span class="role">Me</span></h1>
+                <p class="text-center desc">I'm a passionate developer who loves turning ideas into solutions. As an artist, I bring creativity into every project, blending functionality with aesthetics to craft solutions that truly stand out. I thrive on solving challenges, pushing boundaries, and envisioning the future of technology.</p>
+                <div class="d-flex justify-content-center align-items-center"><button class="btn btn1"><a href="ASSETS\Noora17_Resume.pdf" download="Noora17_Resume.pdf">Download CV</a></button></div>
+              </div>
+              </div>
+              <div class="skill mt-5 col-sm-12 col-lg-12" id="skills">
+                <h1 class="skillz text-center">Skills</h1>
+                <div class="d-flex flex-wrap row justify-content-center align-items-center col-sm-11">
+                <img src="ASSETS\HTML5_logo_and_wordmark.svg.png" alt="lang" class="img1"/>
+                <img src="ASSETS\CSS3_logo_and_wordmark.svg.png" alt="lang" class="img1"/>
+                <img src="ASSETS\Bootstrap_(front-end_framework)-Logo.wine.png" alt="lang" class="img1"/>
+                <img src="ASSETS\JavaScript-Symbol.png" alt="lang" class="img1"/>
+                <img src="ASSETS\Python-logo-notext.svg.png" alt="lang" class="img1"/>
+                <img src="ASSETS\SQLite-Logo.wine.png" alt="lang" class="img1"/>
+                <img src="ASSETS\1_Yafu7ihc1LFuP4azerAa4w.png" alt="lang" class="img1"/>
+              </div>
+            </div>
+
+            <h1 class="text-center text-white mt-5">Projects</h1>
+            <div class="projects d-flex justify-content-center align-items-center col-sm-10 mx-auto" id="projects">
+              <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner mx-auto">
+                  <div class="carousel-item active">
+                   <a href="https://nooraecom.ccbp.tech/login"><img src="ASSETS\ecom.jpg" class="d-block w-100" alt="ecom"></a> 
+                    <div class="carousel-caption d-none d-md-block bg-dark">
+                      <h5>Nxttrends Ecommerce Website</h5>
+                      <p>Nxttrends is a cool Ecommerce Website built using React.it mainly focuses on frontend part which allows users to login,add products to the cart,sort them based on ratings etc.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://nooratodosapp.ccbp.tech/"><img src="ASSETS\todos.jpg" class="d-block w-100" alt="todos"></a>
+                    <div class="carousel-caption d-none d-md-block bg-dark">
+                      <h5>To-dos Application</h5>
+                      <p>To-dos Application is built using HTML,CSS,JavaScript which allows users to keep track of there daily tasks.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://noorafoodmunch.ccbp.tech/"><img src="ASSETS\food munch.jpg" class="d-block w-100" alt="todos"></a>
+                    <div class="carousel-caption d-none d-md-block bg-dark">
+                      <h5>Food Munch</h5>
+                      <p>Food Munch Website is built using HTML,CSS,Bootstrap which allows users to have a look at menu at Restaurant</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div id="contactme" class="text-center mt-5 col-sm-11">
+              <h1 class="text-white">Contact <span class="name mx-auto">Me</span></h1>
+              
+            <button class="btn btn-primary btnn"><a href="mailto:shaiknoora02@gmail.com" class="text-white">Get in Touch</a></button>
+          </div>
+          <div class="d-flex justify-content-center align-items-center col-sm-11 mt-5">
+          <a href='https://github.com/Shaik-Noora'><img src="ASSETS\github.jpg" class="logo" alt="git"/></a>
+           <a href='https://www.linkedin.com/in/shaik-noora/'><img src="ASSETS\linkedin.png" class="logo " alt="linkedin"/></a>
+          </div>
+          </div>
+        </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>

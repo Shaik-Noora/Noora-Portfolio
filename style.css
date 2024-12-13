@@ -1,0 +1,101 @@
+.collor{
+    color: #d81515;
+    font-size: 60px;
+}
+
+.cont{
+    background-color:  #343a40;
+    background-size: cover;
+    padding: 20px;
+}
+
+.greetings{
+  color: #c607e8;
+}
+.name{
+    color: #c607e8;
+  }
+
+  .role{
+    color: #c607e8;
+  }
+
+  .pic{
+    border-radius: 10px;
+    margin-left: 30px;
+  }
+
+  .btnn:hover{
+    background-color: #c607e8;
+  }
+  .desc{
+    color: #ffffff;
+    font-size: 25px;
+  }
+
+  .desc-card{
+    background-color: #4c545c;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .about{
+    color: #ffffff;
+  }
+  .desc-card:hover{
+    background-color: #ffffff;
+    .desc{
+      color: black;
+    }
+    .about{
+      color: #c607e8;
+      font-style: italic;
+    }
+    .role{
+      color: #c607e8;
+      font-style: italic;
+    }
+    .desc{
+      font-style: italic;
+    }
+
+  }
+
+  .btn1{
+    border: #c607e8 solid 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+  }
+
+
+  .img1{
+    margin: 4px;
+    height: 80px;
+    width: 80px;
+    flex-wrap: wrap;
+  }
+
+  .skill{
+    background-color: #4c545c;
+    border-radius: 7px;
+    margin-right: 17px;
+  }
+
+  .skill:hover{
+    background-color: #ffffff;
+    .skillz{
+      color: #c607e8;
+      font-style: italic;
+    }
+  }
+
+  .skillz{
+    color: #ffffff;
+  }
+
+  .logo{
+    height: 30px;
+    width: 30px;
+  }
+
